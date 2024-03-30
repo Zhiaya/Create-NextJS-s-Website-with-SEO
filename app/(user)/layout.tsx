@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Lyzhia Ecommerce Web",
 		description: "Lyzhia Ecommerce Web is a web application for selling products.",
-		images: 'https://store.istad.co/media/brand_images/'
+		images: 'https://store.istad.co/media/brand_images/8.jpg'
 	}
 }
 

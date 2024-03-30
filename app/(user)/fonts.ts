@@ -2,9 +2,9 @@ import { Inter, Suwannaphum } from "next/font/google";
 import localFont from "next/font/local"
 
 export const localCustomFont = localFont({
-    src: "./fonts/osaka-re.ttf",
+    src: "./fonts/HOLIDAY SUNRISE.ttf",
     display: "swap",
-    variable: "--font-osaka-re",
+    variable: "--font-HOLIDAY-SUNRISE",
 })
 
 export const inter = Inter({

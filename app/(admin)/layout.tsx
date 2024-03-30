@@ -3,6 +3,7 @@ import SideBarComponent from "@/components/sidebar/SideBarComponent";
 import "@/app/globals.css";
 import { MenuIcon } from "@/components/icons/FontAwsome";
 import { useState } from "react";
+import { inter, suwannaphum, localCustomFont } from "../(user)/fonts";
 
 export default function AdminLayout({
 	children,
@@ -13,7 +14,7 @@ export default function AdminLayout({
 	console.log(isShowSideBar);
 	return (
 		<html>
-			<body className="flex none-scroll-bar">
+			<body className={`${suwannaphum.variable} ${inter.variable} ${localCustomFont.variable} h-screen flex flex-col`}>
 				<MenuIcon
 					onClick={() => setIsShowSideBar(!isShowSideBar)}
 					classname="h-8 z-20 w-8 fixed bottom-0 m-4 cursor-pointer lg:hidden"
