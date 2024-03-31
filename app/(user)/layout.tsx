@@ -9,11 +9,11 @@ import { inter, suwannaphum, localCustomFont } from "./fonts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Lyzhia Ecommerce Web",
-	description: "Lyzhia Ecommerce Web is a web application for selling products.",
+	title: "ISTAD Ecommerce Web",
+	description: "ISTAD Ecommerce Web is a web application for selling products.",
 	openGraph: {
-		title: "Lyzhia Ecommerce Web",
-		description: "Lyzhia Ecommerce Web is a web application for selling products.",
+		title: "ISTAD Ecommerce Web",
+		description: "ISTAD Ecommerce Web is a web application for selling products.",
 		images: 'https://store.istad.co/media/brand_images/8.jpg'
 	}
 }
